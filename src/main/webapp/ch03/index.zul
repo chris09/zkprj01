@@ -2,16 +2,16 @@
 <zk>
 	<borderlayout hflex="1" vflex="1">
 		<north height="100px" border="none">
-			<label style="font-size:50px">North for header</label>
+			<include src="/ch03/banner.zul" />
 		</north>
 		<west width="260px" border="none" collapsible="true" splittable="true" minsize="300">
-			<label style="font-size:50px">West for sidebar</label>
+			<include src="/ch03/sidebar.zul" />
 		</west>
 		<center id="mainContent" autoscroll="true">
-			<label style="font-size:50px">Center for content</label>
+			<include src="/ch03/main.zul" />
 		</center>
 		<south>
-			<label style="font-size:50px">South for footer</label>
+			<include src="/ch03/footer.zul" />
 		</south>
 	</borderlayout>
 </zk>
